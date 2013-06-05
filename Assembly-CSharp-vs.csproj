@@ -44,9 +44,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\A.cs" />
      <Compile Include="Assets\Scripts\RotateHouse.cs" />
      <Compile Include="Assets\Scripts\UFOMove.cs" />
+     <Compile Include="Assets\SmoothLookAt.cs" />
+     <Compile Include="Assets\TextChanger.cs" />
+     <Compile Include="Assets\TriggerLight.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+ <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{C08C2911-E802-5D37-2DFF-4C83761FB434}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
