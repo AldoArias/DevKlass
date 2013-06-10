@@ -45,6 +45,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\A.cs" />
+     <Compile Include="Assets\CapsuleControl.cs" />
+     <Compile Include="Assets\CharacterMotor.cs" />
+     <Compile Include="Assets\ClickMove.cs" />
      <Compile Include="Assets\Scripts\RotateHouse.cs" />
      <Compile Include="Assets\Scripts\UFOMove.cs" />
      <Compile Include="Assets\SmoothLookAt.cs" />

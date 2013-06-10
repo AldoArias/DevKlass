@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{4A17CB60-3DB0-5804-155A-EB2D0D692EA9}</ProjectGuid>
+	<ProjectGuid>{E449B38C-2B49-CFB3-10B2-446FAE1FD3B6}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,15 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\A.cs" />
-     <Compile Include="Assets\CapsuleControl.cs" />
-     <Compile Include="Assets\CharacterMotor.cs" />
-     <Compile Include="Assets\ClickMove.cs" />
-     <Compile Include="Assets\Scripts\RotateHouse.cs" />
-     <Compile Include="Assets\Scripts\UFOMove.cs" />
-     <Compile Include="Assets\SmoothLookAt.cs" />
-     <Compile Include="Assets\TextChanger.cs" />
-     <Compile Include="Assets\TriggerLight.cs" />
+     <Compile Include="Assets\OpenableDoor.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
